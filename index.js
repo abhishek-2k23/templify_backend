@@ -5,6 +5,7 @@ const fileRoutes = require('./routes/fileRoutes');
 const historyRoutes = require('./routes/historyRoutes');
 const fs = require('fs');
 const path = require('path');
+const cors = require('cors');
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ if (!fs.existsSync(uploadsDir)) {
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use('/api/files', fileRoutes);
 app.use('/api/history', historyRoutes);

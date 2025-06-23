@@ -2,6 +2,7 @@ const express = require('express');
 const dotenv = require('dotenv');
 const connectDB = require('./configuration/db');
 const fileRoutes = require('./routes/fileRoutes');
+const historyRoutes = require('./routes/historyRoutes');
 const fs = require('fs');
 const path = require('path');
 
@@ -17,6 +18,7 @@ const app = express();
 
 app.use(express.json());
 app.use('/api/files', fileRoutes);
+app.use('/api/history', historyRoutes);
 
 connectDB();
 

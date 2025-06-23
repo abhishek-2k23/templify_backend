@@ -1,23 +1,15 @@
-Absolutely! Here is a detailed API documentation for your file management backend, suitable for frontend developers and integrators.
+Here is your detailed API documentation, updated for your deployed backend at:
+
+```
+https://templify-backend.onrender.com/api/files
+```
 
 ---
 
 # 📁 File Management API Documentation
 
 **Base URL:**  
-Replace `https://api.templify.com` with your actual custom domain.
-
-```
-https://api.templify.com/api/files
-```
-
----
-
-## Authentication
-
-> **Note:**  
-> This API currently uses the user's email as an identifier. No authentication token is required.  
-> If you plan to add authentication in the future, you can extend this documentation.
+`https://templify-backend.onrender.com/api/files`
 
 ---
 
@@ -44,7 +36,7 @@ Upload a new file for a user. Only `.pdf`, `.txt`, `.xls`, and `.doc` files are 
 
 **Example Request (curl):**
 ```bash
-curl -X POST https://api.templify.com/api/files/upload \
+curl -X POST https://templify-backend.onrender.com/api/files/upload \
   -F "file=@/path/to/your/file.pdf" \
   -F "email=user@example.com"
 ```
@@ -85,7 +77,7 @@ Retrieve all files uploaded by a specific user.
 
 **Example Request (curl):**
 ```bash
-curl "https://api.templify.com/api/files/list?email=user@example.com"
+curl "https://templify-backend.onrender.com/api/files/list?email=user@example.com"
 ```
 
 **Success Response:**
@@ -131,7 +123,7 @@ Replace an existing file for a user. The old file is deleted from Cloudinary, an
 
 **Example Request (curl):**
 ```bash
-curl -X POST https://api.templify.com/api/files/update \
+curl -X POST https://templify-backend.onrender.com/api/files/update \
   -F "file=@/path/to/new/file.txt" \
   -F "fileId=PUT_FILE_ID_HERE" \
   -F "email=user@example.com"
@@ -180,7 +172,7 @@ Delete a file for a user. The file is removed from Cloudinary and its record is 
 
 **Example Request (curl):**
 ```bash
-curl -X POST https://api.templify.com/api/files/delete \
+curl -X POST https://templify-backend.onrender.com/api/files/delete \
   -H "Content-Type: application/json" \
   -d '{"fileId":"PUT_FILE_ID_HERE","email":"user@example.com"}'
 ```
@@ -209,7 +201,7 @@ Check if the API is running.
 
 **Example Request (curl):**
 ```bash
-curl https://api.templify.com/api/files/test
+curl https://templify-backend.onrender.com/api/files/test
 ```
 
 **Success Response:**

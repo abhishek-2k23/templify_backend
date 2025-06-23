@@ -1,0 +1,625 @@
+.
+├── 10. Linux Privilege Escalation
+│   └── Linux Privilege Escalation
+│       ├── Conclusion
+│       │   └── Conclusion and What Next.mp4
+│       ├── Cron Jobs
+│       │   ├── Introduction to Cron jobs.mp4
+│       │   ├── [LAB] Cron Exploitation PATH Manipulation.mp4
+│       │   ├── [LAB] Cron Exploitation Weak File Permissions.mp4
+│       │   └── [LAB] Cron Exploitation Wild Cards.mp4
+│       ├── Introduction
+│       │   └── Introduction to Linux Privilege Escalation.mp4
+│       ├── Linux Enumeration
+│       │   ├── Intro to Enumeration.mp4
+│       │   ├── [LAB] Automatic Enumeration Techniques.mp4
+│       │   ├── LAB] Manual Enumeration 1.mp4
+│       │   └── [LAB] Manual Enumeration 2.mp4
+│       ├── Other Linux Components
+│       │   ├── Introduction to Kernel Exploits.mp4
+│       │   ├── Introduction to Linux Capabilities.mp4
+│       │   ├── Introduction to NFS.mp4
+│       │   ├── [LAB] Capabilities getcap Exploitation.mp4
+│       │   ├── [LAB] Kernel Exploitation.mp4
+│       │   ├── [LAB] NFS Exploitation.mp4
+│       │   ├── [LAB] Service Exploits MySQL User Defined Functions.mp4
+│       │   └── Service Exploits MySQL User Defined Functions.mp4
+│       ├── Sensitive Credentials
+│       │   ├── Intro to Sensitive Credentials.mp4
+│       │   └── [LAB] Sensitive Credentials.mp4
+│       ├── sudo exploitation
+│       │   ├── Introduction to SUDO.mp4
+│       │   ├── [LAB] SUDO Exploitation Escape Sequences.mp4
+│       │   ├── [LAB] SUDO Exploitation ld_library_path.mp4
+│       │   └── [LAB] SUDO Exploitation ld_preload.mp4
+│       ├── SUIDSGID Executables
+│       │   ├── Introduction to SUIDSGID.mp4
+│       │   ├── [LAB] SUID Exploitation Common Ways.mp4
+│       │   ├── [LAB] SUID Exploitation Environment Variables.mp4
+│       │   └── [LAB] SUID Exploitation Shared Objects.mp4
+│       └── Weak File Permissions
+│           └── Weak File Permissions and Exploitation.mp4
+├── 11. Windows Privilege Escalation
+│   └── Windows Privilege Escalation
+│       ├── 1 Introduction
+│       │   └── Introduction to Windows Privilege Escalation.mp4
+│       ├── 2 Windows Enumeration
+│       │   ├── Introduction to Enumeration.mp4
+│       │   ├── Introduction to User Access Control (UAC).mp4
+│       │   ├── [LAB] Automatic Enumeration windows_privesc_check.mp4
+│       │   ├── [LAB] Automatic Enumeration WinPEAS.mp4
+│       │   ├── [LAB] Manual Enumeration.mp4
+│       │   └── Windows Privilege Architecture.mp4
+│       ├── 3 Service Abuse
+│       │   ├── Introduction to Windows Services.mp4
+│       │   ├── [LAB] Service Abuse DLL Hijacking.mp4
+│       │   ├── [LAB] Service Abuse Unquoted Service Paths.mp4
+│       │   ├── [LAB] Service Abuse Weak Service Executable.mp4
+│       │   ├── [LAB] Service Abuse Weak Service Permission.mp4
+│       │   └── Service Abuse DLL Hijacking.mp4
+│       ├── 4 Sensitive Credentials
+│       │   ├── Introduction to Sensitive Credentials.mp4
+│       │   └── [LAB] Sensitive Credentials Exploitation.mp4
+│       ├── 5 Registry Attacks
+│       │   ├── Introduction to Windows Registry.mp4
+│       │   ├── [LAB] Registry Attacks AlwaysInstallElevated.mp4
+│       │   ├── [LAB] Registry Attacks Autorun.mp4
+│       │   └── [LAB] Registry Attacks Weak Registry Permissions.mp4
+│       ├── 6 Privilege Attacks
+│       │   ├── Introduction to Token Impersonation SeImpersonate.mp4
+│       │   ├── Introduction to Windows Privileges.mp4
+│       │   ├── [LAB] SeBackup Exploit.mp4
+│       │   ├── [LAB] SeImpersonate Exploit JuicyPotato.mp4
+│       │   ├── [LAB] SeImpersonate Exploit PrintSpoofer.mp4
+│       │   ├── [LAB] SeImpersonate Exploit RoguePotato.mp4
+│       │   └── [LAB] SeTakeOwnership Exploit.mp4
+│       ├── 7 Other Windows Components
+│       │   ├── Introduction to Kernel Exploitation.mp4
+│       │   ├── [LAB] Insecure GUI Apps.mp4
+│       │   ├── [LAB] Scheduled Tasks Exploitation.mp4
+│       │   ├── [LAB] Startup Apps Exploitation.mp4
+│       │   ├── [LAB] Vulnerable Software.mp4
+│       │   ├── [LAB] Windows Kernel Exploitation Windows 10.mp4
+│       │   ├── [LAB] Windows Kernel Exploitation Windows 7.mp4
+│       │   └── [LAB] Windows UAC Bypass.mp4
+│       └── 8 Conclusion
+│           └── Conclusion and What Next.mp4
+├── 12. Active
+│   ├── Active Directory Pdf
+│   │   ├── Active Directory Attacks (Bonus).pdf
+│   │   ├── Active Directory Authentication New.pdf
+│   │   ├── Active Directory Authentication.pdf
+│   │   ├── Active Directory Basics New.pdf
+│   │   ├── Active Directory Basics.pdf
+│   │   ├── Active Directory Course References.zip
+│   │   ├── Active Directory Enumeration.pdf
+│   │   ├── Active Directory Lateral Movement and Pivoting.pdf
+│   │   ├── Active Directory Persistence.pdf
+│   │   ├── Conclusion.pdf
+│   │   ├── Initial Foothold.pdf
+│   │   ├── Introduction.pdf
+│   │   ├── Kerberos.pdf
+│   │   ├── Post Exploitation.pdf
+│   │   └── Post Initlal Foothold.pdf
+│   ├── Basics of Active Directory.mp4
+│   ├── Cached Credential Retrieval.mp4
+│   ├── Conclusion And What Next.mp4
+│   ├── Deep Dive into Kerberoasting.mp4
+│   ├── [EXERCISE] Assembling the Pieces - Attacking an AD Environment.mp4
+│   ├── Introduction to AD Enumeration.mp4
+│   ├── Introduction To Breaching AD and OSINT.mp4
+│   ├── Introduction to Chisel.mp4
+│   ├── Introduction to Lateral Movement.mp4
+│   ├── Introduction to Persistence.mp4
+│   ├── Introduction to Pivoting and Port Redirection.mp4
+│   ├── Introduction to the Course.mp4
+│   ├── [LAB] Abusing GPOs for Persistence.mp4
+│   ├── [LAB] Active Directory Basics.mp4
+│   ├── [LAB] AS Rep Roasting.mp4
+│   ├── [LAB] Credential Injection and Microsoft Management Console (MMC).mp4
+│   ├── [LAB] Deployment Toolkit And Authentication Relays.mp4
+│   ├── [LAB] Enumerating Config Files.mp4
+│   ├── [LAB] Enumeration Lab Setup.mp4
+│   ├── [LAB] Enumeration with MMC #2.mp4
+│   ├── [LAB] Enumeration with Powershell and CMD.mp4
+│   ├── [LAB] Everything Bloodhound.mp4
+│   ├── [LAB] Exploiting AD Users.mp4
+│   ├── [LAB] Exploiting Automated Relays.mp4
+│   ├── [LAB] Exploiting Group Policy Objects (GPOs).mp4
+│   ├── [LAB] Exploiting Kerberos Permission Delegation.mp4
+│   ├── [LAB] Extracting Credentials From Common Windows Locations.mp4
+│   ├── [LAB] Extracting Creds From Domain Controller.mp4
+│   ├── [LAB] Extracting Creds From LSASS.mp4
+│   ├── [LAB] Extracting Local Windows Credentials.mp4
+│   ├── [LAB] Introduction to Lateral Movement.mp4
+│   ├── [LAB] Introduction to Persistence.mp4
+│   ├── [LAB] Lateral Movement - Abusing User Behavior.mp4
+│   ├── [LAB] Lateral Movement with Mimikatz - Pass the Hash.mp4
+│   ├── [LAB] Lateral Movement with PsExec - Pass the Hash.mp4
+│   ├── [LAB] Local Administrator Password Solution (LAPS).mp4
+│   ├── [LAB] NetNTLM and LDAP Bind.mp4
+│   ├── [LAB] Pass The Ticket.mp4
+│   ├── [LAB] Persistence with Credentials.mp4
+│   ├── [LAB] Persistence with DCSync.mp4
+│   ├── [LAB] Persistence with Silver and Golden Tickets.mp4
+│   ├── [LAB] Pivoting With Chisel And SOCKS.mp4
+│   ├── [LAB] Pivoting With Chisel.mp4
+│   ├── [LAB] Pivoting With Socat.mp4
+│   ├── [LAB] Tunneling Complex Exploits.mp4
+│   ├── [LAB] Windows Credential Manager.mp4
+│   ├── [OLD] Active Directory Attacks - Golden Ticket.mp4
+│   ├── [OLD] Active Directory Attacks Kerberoasting in action.mp4
+│   ├── [OLD] Active Directory Attacks LLMNR NBTNS Poisoning.mp4
+│   ├── [OLD] Active Directory Attacks - Pass The Hash.mp4
+│   ├── [OLD] Active Directory Creating Users, Groups, Services and Shares.mp4
+│   ├── [OLD] Active Directory Downloading Necessary Files.mp4
+│   ├── [OLD] Active Directory Installing and Setting up Domain Controller.mp4
+│   ├── [OLD] Active Directory Installing and Setting up Windows 10 Enterprise.mp4
+│   ├── [OLD] Active Directory Installing the Windows 10 Server.mp4
+│   ├── [OLD] Active Directory Joining Users to the Domain.mp4
+│   ├── [OLD] Active Directory Lab Build and Minimum Requirements.mp4
+│   ├── [OLD] Active Directory Update Windows 10.mp4
+│   ├── [OLD] How passwords are stored in SAM file.mp4
+│   ├── [OLD] Introduction to Active Directory.mp4
+│   ├── [OLD] Introduction to Domain Controller.mp4
+│   ├── [OLD] Kerberos Authentication.mp4
+│   ├── [OLD] LAN Manager Hash.mp4
+│   ├── [OLD] Microsoft Authentication.mp4
+│   ├── [OLD] NTLM Authentication.mp4
+│   ├── [OLD] Windows RCE with psexec And wmic.mp4
+│   ├── Overpass The Hash.mp4
+│   ├── Pass The Hash.mp4
+│   └── Silver Ticket.mp4
+├── 13. Pentesting Automation with Python
+│   └── Pentesting Automation with Python
+│       ├── AUTOMATION Recon Automation
+│       │   ├── Combining the Web Modules and documenting the script output.mp4
+│       │   └── Integrating Slack API for channel notifications.mp4
+│       ├── CONCLUSION
+│       │   └── Conclusion and What Next.mp4
+│       ├── CRYPTOGRAPHY Hash Password Cracker
+│       │   ├── 65. Benchmarking the script performance-opendir.cloud.mp4
+│       │   └── Cracking hashes for MD5, SHA1 and SHA256.mp4
+│       ├── EXPLOITATION Creating a Multi Functiona
+│       │   ├── Building a Simple Keylogger with logging library.mp4
+│       │   ├── Creating a Server (Attacker) listener class.mp4
+│       │   ├── Downloading and Running Remote Scripts in Stealth Mode.mp4
+│       │   ├── Generating a Standalone Windows Executable with pyinstaller.mp4
+│       │   ├── Navigating the Remote File System.mp4
+│       │   ├── Obtaining Persistence on the Target.mp4
+│       │   ├── Remote Command Execution in Action.mp4
+│       │   ├── Remote Command Execution with subprocess.mp4
+│       │   ├── Sending and Receiving binary data - Introduction to Serailization.mp4
+│       │   ├── Uploading and Downloading Files to and from the Target.mp4
+│       │   └── Windows Credential Dumping with LaZagne.mp4
+│       ├── INFORMATION GATHERING Footprinter
+│       │   ├── Getting DNS Info.mp4
+│       │   ├── Getting geolocation Info.mp4
+│       │   ├── Getting Shodan Info.mp4
+│       │   ├── Getting whois Info.mp4
+│       │   ├── Introduction to argparse.mp4
+│       │   └── Saving The Output.mp4
+│       ├── INTRODUCTION
+│       │   ├── Introduction to the Course.mp4
+│       │   └── Setting Up The IDE - PyCharm.mp4
+│       ├── MAN IN THE MIDDLE ARP Spoofer
+│       │   ├── A thing or two about IP Routing.mp4
+│       │   ├── Generating Spoofed ARP Packets.mp4
+│       │   ├── Poisoning ARP tables of Target.mp4
+│       │   └── Restoring Original Configuration.mp4
+│       ├── MAN IN THE MIDDLE DNS Poisoning
+│       │   ├── Extracting DNS info from an IP Packet.mp4
+│       │   ├── Introduction to netfilterqueue.mp4
+│       │   └── Modifying the DNS Resource Record and Recompiling the Packets.mp4
+│       ├── SCANNING Banner Grabber
+│       │   ├── Correction in Banner Grabbing.mp4
+│       │   ├── Getting Server Banner from Port 80.mp4
+│       │   └── Receiving Raw Data from an Open Port.mp4
+│       ├── SCANNING Port Scanning with Scapy
+│       │   ├── Manipulating TCP Packet Headers in Port Scan.mp4
+│       │   ├── scapy sr() function in detail.mp4
+│       │   └── TCP Hex Conversion and Analyzing 3 Way Handshake Probes.mp4
+│       ├── SCANNING Simple Network Scanner
+│       │   ├── Analyzing Packet Responses.mp4
+│       │   ├── ARP Method vs ICMP Method.mp4
+│       │   ├── Crafting layer 2 packets with scapy.mp4
+│       │   └── Extracting Packet Header Fields.mp4
+│       ├── SCANNING Simple Port Scanner
+│       │   ├── Building a Multithreaded Port Scanner.mp4
+│       │   ├── Creating a Sequential Port Scanner.mp4
+│       │   ├── Creating Socket Connections.mp4
+│       │   ├── Formatting the Output like nmap results.mp4
+│       │   └── Introduction to Multithreading (Concurrency vs Parallelism).mp4
+│       ├── SNIFFING Simple Packet Sniffer
+│       │   ├── Capturing the HTTP Traffic.mp4
+│       │   ├── Coloring The Output Groups with colorama.mp4
+│       │   ├── Dumping Plain HTTP Data.mp4
+│       │   ├── Extracting and Analyzing the Packet Headers and Raw Payload Data.mp4
+│       │   ├── Introduction to scapy.mp4
+│       │   ├── Working with Protocol Headers with scapy.layers.mp4
+│       │   └── Working with scapy module.mp4
+│       ├── WEB APP PENTESTING Building a Fast Dir
+│       │   ├── Brute Forcing with Directory Wordlist.mp4
+│       │   └── Building a Fast Directory Buster.mp4
+│       ├── WEB APP PENTESTING HTTP Password Guessing
+│       │   ├── Getting command line arguments with argparse.mp4
+│       │   ├── Manipulating the GET and POST data.mp4
+│       │   └── Setting custom HTTP Headers in Session requests.mp4
+│       ├── WEB APP PENTESTING Recursive Web Crawler
+│       │   ├── Getting and Filtering out Links with BeautifulSoup.mp4
+│       │   └── Recurse through Individual URL paths.mp4
+│       ├── WEB APP PENTESTING SSH and FTP Brute Force
+│       │   ├── Implementing Multithreading to the module.mp4
+│       │   ├── Setting up an FTP Client with ftplib.mp4
+│       │   └── Setting up an SSH Client with paramiko.mp4
+│       ├── WEB APP PENTESTING Subdomain Finder
+│       │   └── Brute Forcing First Level Subdomains with Wordlist.mp4
+│       └── WEB APP PENTESTING Web Vulnerability Scanner
+│           ├── Collecting all HTML Forms and their details with BeautifulSoup.mp4
+│           ├── Creating an SQL Injection Scanner.mp4
+│           ├── Creating an XSS Scanner.mp4
+│           └── Sending crafted requests with predefined payload lists.mp4
+├── 14. Penetration Testing Report Writing
+│   └── Penetration Testing Report Writing
+│       ├── 22.1 Introduction To Pentesting.mp4
+│       ├── 22.2 Requirements Of A Pentester.mp4
+│       ├── 22.3 Bug Bounty And Pentesting Methodology.mp4
+│       └── 22.4 Bug Bounty Report Writing.mp4
+├── 15. Preparing for OSCP
+│   └── Preparing for OSCP
+│       ├── Complete Roadmap for OSCP
+│       │   └── listen.txt
+│       ├── OSCP Exam Guide
+│       │   └── OSCP Exam Guide.mp4
+│       └── OSCP Report Writing
+│           ├── My OSCP Report.mp4
+│           ├── Report Writing Mechanics.mp4
+│           ├── Report Writing.pdf
+│           ├── Writing a Report 1.mp4
+│           └── Writing a Report 2.mp4
+├── 1.Introduction
+│   └── Introduction
+│       ├── Introduction.pdf
+│       └── Introduction to Offensive Pentesting.mp4
+├── 2.Introduction to Cyber Security
+│   └── Introduction to Cyber Security
+│       ├── Careers in Ethical Hacking.mp4
+│       ├── General Terminologies.mp4
+│       ├── How To become an Ethical Hacker.mp4
+│       ├── Information Security Threats.mp4
+│       ├── Introduction to Cyber Security.mp4
+│       ├── Introduction to Ethical Hacking.mp4
+│       ├── Introduction to Information Security.mp4
+│       ├── Study Materials
+│       │   ├── Presentation.pdf
+│       │   └── references.txt
+│       ├── Study Materials.zip
+│       ├── The CIA Triad.mp4
+│       └── Who are Hackers.mp4
+├── 3 Fundamentals
+│   ├── Bash for Beginners
+│   │   ├── Bash Arrays
+│   │   │   └── Array and its operations.mp4
+│   │   ├── Bash Conditional Statements
+│   │   │   ├── case statement.mp4
+│   │   │   ├── desktop.ini
+│   │   │   └── if statement.mp4
+│   │   ├── Bash Functions
+│   │   │   ├── desktop.ini
+│   │   │   └── Functions, Arguments, Variable Scoping and Ret.mp4
+│   │   ├── Bash Loops
+│   │   │   ├── desktop.ini
+│   │   │   ├── for loop.mp4
+│   │   │   └── while and until loops.mp4
+│   │   ├── Bash Strings
+│   │   │   ├── desktop.ini
+│   │   │   └── Strings and String Operations.mp4
+│   │   ├── Bash Variables and Operators
+│   │   │   ├── desktop.ini
+│   │   │   └── Variables and Operators in Bash.mp4
+│   │   ├── Bonus Section
+│   │   │   ├── Introduction to awk scripts.mp4
+│   │   │   └── Introduction to sed.mp4
+│   │   ├── File Operations
+│   │   │   └── File Operations and Aliases.mp4
+│   │   ├── Introduction to Bash Shell
+│   │   │   ├── [3.13] Working with Linux User Administration.mp4
+│   │   │   ├── Bash Scripting Environment Setup.mp4
+│   │   │   ├── Basic Commands part 1.mp4
+│   │   │   ├── Basic Commands part 2.mp4
+│   │   │   ├── desktop.ini
+│   │   │   ├── Filesystem And Permission Model.mp4
+│   │   │   ├── grep command.mp4
+│   │   │   ├── Introduction and History of Linux and Shell.mp4
+│   │   │   └── IO Redirection And Pipes.mp4
+│   │   ├── Projects
+│   │   │   ├── PROJECT 1 - Simple Random Quote Generator.mp4
+│   │   │   ├── PROJECT 2 - Scheduled remote backup module.mp4
+│   │   │   └── PROJECT 3 - Bug Bounty Recon Automation.mp4
+│   │   ├── Simple Script Elements
+│   │   │   ├── Bash Comments, Quotes and Command Substitution.mp4
+│   │   │   ├── Hello World in Bash.mp4
+│   │   │   └── Return Statuses and Exit Codes.mp4
+│   │   └── Study Materials
+│   │       ├── awk_scripting.ppt
+│   │       ├── Introduction to Bash.pdf
+│   │       ├── Introduction to Bash.pptx
+│   │       ├── Introduction to Bash Shell.ppt
+│   │       ├── references.txt
+│   │       ├── ShellAdvanced.ppt
+│   │       ├── sourcecodes
+│   │       │   └── source_files.zip
+│   │       └── UnixShells.ppt
+│   ├── Basics and Environment Setup
+│   │   ├── [2.12] Introduction to Penetration Testing.mp4
+│   │   ├── [2.13] Phases of Penetration Testing.mp4
+│   │   ├── [2.14] Cyber Security vs Ethical Hacking.mp4
+│   │   ├── [2.18] Software and Hardware Requirements for a Hacking Lab.mp4
+│   │   ├── [2.19] Installing and Configuring VMWare WS.mp4
+│   │   ├── [2.1] Advantages and Limitations of Cyber Security.mp4
+│   │   ├── [2.20] Dual boot vs Virtual Machine.mp4
+│   │   ├── [2.21] Choosing and Downloading Kali Distro.mp4
+│   │   ├── [2.22] Configuring VM For Kali Linux.mp4
+│   │   ├── [2.23] Installing Kali Linux 2019.4 on VMWare (New).mp4
+│   │   ├── [2.24] Virtual Network Configurations Explained - NAT vs Bridged vs Host O.mp4
+│   │   ├── [2.25] Installating and Configuring DVWA.mp4
+│   │   ├── [2.26] Installating and Configuring bWAPP.mp4
+│   │   ├── [2.27] Installing Metasploitable on VM.mp4
+│   │   ├── [2.28] Installing OWASP Broken Web Application on VMWare.mp4
+│   │   ├── [2.3] Skills of an Ethical Hacker.mp4
+│   │   ├── [2.5] Vulnerability Research.mp4
+│   │   ├── [2.6] Introduction to OS Linux and it_s Evolution.mp4
+│   │   ├── [2.7] Major Linux Distributions.mp4
+│   │   ├── [2.8] Advantages of linux.mp4
+│   │   ├── [2.9] Linux for Penetration Testing.mp4
+│   │   ├── desktop.ini
+│   │   ├── Study Materials
+│   │   │   ├── Module 2.pdf
+│   │   │   └── references.txt
+│   │   └── Study Materials.zip
+│   ├── Cryptography
+│   │   ├── 19.10 Double DES And Triple DES.mp4
+│   │   ├── 19.11 Advanced Encryption Standard.mp4
+│   │   ├── 19.12 Block Cipher Modes Of Operation.mp4
+│   │   ├── 19.13 Stream Ciphers.mp4
+│   │   ├── 19.14 What Is Public Key Cryptography And Types Of Asymmetric Encryption.mp4
+│   │   ├── 19.15 RSA Algorithm.mp4
+│   │   ├── 19.16 Diffie Hellman Key Exchange.mp4
+│   │   ├── 19.17 Message Authentication Code.mp4
+│   │   ├── 19.18 What Is A Cryptographic Hash Function Beginner_s Guide.m4v.mp4
+│   │   ├── 19.19 Introduction To Hashing.mp4
+│   │   ├── 19.1 Introduction To Cryptography.mp4
+│   │   ├── 19.20 Guide To Digital Signatures And Digital Certificates.m4v.m4v
+│   │   ├── 19.21 Digital Signatures And Certificates.mp4
+│   │   ├── 19.22 Public Key Infrastructure.mp4
+│   │   ├── 19.23 Secure Sockets Layer.mp4
+│   │   ├── 19.26 Cryptographic Mathematics.mp4
+│   │   ├── 19.27 Cryptography Hands On.mp4
+│   │   ├── 19.2 Terms In Cryptography.mp4
+│   │   ├── 19.3 Types Of Cryptography.mp4
+│   │   ├── 19.4 Classical Cryptosystem And Substitution Cipher.mp4
+│   │   ├── 19.6 Introduction To Modern Cryptosystem.mp4
+│   │   ├── 19.7 Shannon Theory.mp4
+│   │   ├── 19.9 Data Encryption Standard.mp4
+│   │   ├── Study Materials 19
+│   │   │   ├── Extra Materials.zip
+│   │   │   ├── Illustrations.zip
+│   │   │   ├── Module 19.pdf
+│   │   │   ├── Notes NPTEL.zip
+│   │   │   └── references.txt
+│   │   └── Study Materials 19.zip
+│   ├── Linux Basics
+│   │   ├── [3.10] Linux Elementary Commands.mp4
+│   │   ├── [3.11] Linux Networking Commands.mp4
+│   │   ├── [3.12] history and grep command.mp4
+│   │   ├── [3.13] Working with Linux User Administration.mp4
+│   │   ├── [3.14] Linux Working with Files, Permissions and Directories.mp4
+│   │   ├── [3.15] Working with Linux File Permissions.mp4
+│   │   ├── [3.16] Linux Working with Groups.mp4
+│   │   ├── [3.17] Linux Package Manager apt.mp4
+│   │   ├── [3.18] Linux Useful Files.mp4
+│   │   ├── [3.1] Introduction to Command Line.mp4
+│   │   ├── [3.2] Windows command line.mp4
+│   │   ├── [3.3] Linux command line.mp4
+│   │   ├── [3.4] Linux File System.mp4
+│   │   ├── [3.5] NTFS vs FAT vs EXT.mp4
+│   │   ├── [3.6] Linux User Administration.mp4
+│   │   ├── [3.7] Basic DOS Commands.mp4
+│   │   ├── [3.8] DOS Networking Commands.mp4
+│   │   ├── [3.9] Kali 2019.4 and linux file system overview.mp4
+│   │   └── Study Materials
+│   │       ├── Extra Materials.zip
+│   │       ├── Illustrations.zip
+│   │       ├── Module 3.pdf
+│   │       └── references.txt
+│   └── Networking Basics
+│       ├── [4.10] Proxies and Proxy Servers.mp4
+│       ├── [4.11] Introduction to TOR.mp4
+│       ├── [4.12] Introduction to VPN.mp4
+│       ├── [4.13] Remote Login - SSH and telnet.mp4
+│       ├── [4.14] Introduction to NAT and Port Forwarding.mp4
+│       ├── [4.1] The OSI Model - Open Systems Interconnection.mp4
+│       ├── [4.2] More on OSI Model - Introduction to TCP-IP Model.mp4
+│       ├── [4.3] TCP-IP v-s OSI - The Difference.mp4
+│       ├── [4.4] Data Link Layer and MAC Addresses.mp4
+│       ├── [4.5] Network Layer and IP Addresses.mp4
+│       ├── [4.6] Classful IP Addressing, Private and Special Addresses.mp4
+│       ├── [4.7] Classless IP Addressing.mp4
+│       ├── [4.8] Transport Layer.mp4
+│       ├── [4.9] Ports and Port Addressing.mp4
+│       ├── Study Materials
+│       │   ├── Extra materials.zip
+│       │   ├── Illustrations.zip
+│       │   ├── Module 4.pdf
+│       │   └── references.txt
+│       └── Study Materials.zip
+├── 4. Information Gathering
+│   └── Information Gathering
+│       └── Footprinting and Reconnaissance
+│           ├── DNS Footprinting with DNS Dumpster.mp4
+│           ├── dns.google.com.mp4
+│           ├── DNS Resource Records.ts
+│           ├── Email Footprinting.mp4
+│           ├── Footprinting through search Engines.mp4
+│           ├── Footprinting with Social Engineering.mp4
+│           ├── Google Dorks Explained - What is Google Hacking.mp4
+│           ├── Internet Archive.mp4
+│           ├── Introduction and Working of Traceroute.mp4
+│           ├── Introduction to DNS Footprinting.mp4
+│           ├── Introduction to Footprinting and Objectives.mp4
+│           ├── Introduction to OSINT.mp4
+│           ├── Major IP Block.mp4
+│           ├── netdiscover.mp4
+│           ├── Network Footprinting.mp4
+│           ├── Shodan Advanced Search with Dorks.mp4
+│           ├── Shodan Introduction and First Look.mp4
+│           ├── Study Materials
+│           │   ├── Illustrations.zip
+│           │   ├── Module 5.pdf
+│           │   └── references.txt
+│           ├── Subdomain Finder Websites.mp4
+│           ├── sublist3r.mp4
+│           ├── Traceroute Analysis.mp4
+│           ├── Wappalyzer.mp4
+│           ├── Website Footprinting.mp4
+│           ├── wget Mirroring.mp4
+│           ├── WhatWeb.mp4
+│           └── Working with Google Dorks - Google Dorking Practical.mp4
+├── 5. Target Scanning
+│   └── Target Scanning
+│       ├── 1 Scanning
+│       │   ├── [6.10] Types of Port Scanning - TCP Stealth Scan.mp4
+│       │   ├── [6.11] Types of Port Scanning - TCP Inverse Flag Scanning.mp4
+│       │   ├── [6.12] Types of Port Scanning - TCP Xmas Scan.mp4
+│       │   ├── [6.17] Nmap - Advanced Port Scanning.mp4
+│       │   ├── [6.18] Nmap - Bypass Firewalls and IDS.mp4
+│       │   ├── [6.19] Nmap - Types of Scans.mp4
+│       │   ├── [6.1] Basics of Scanning.mp4
+│       │   ├── [6.20] Port Scanning with hping3.mp4
+│       │   ├── [6.21] Port Scanning with pentest-tools.mp4
+│       │   ├── [6.23] Introduction to Banner Grabbing.mp4
+│       │   ├── [6.25] Banner Grabbing with NetCraft.mp4
+│       │   ├── [6.26] Banner Grabbing with netcat.mp4
+│       │   ├── [6.27] Evading IDS and Firewalls.mp4
+│       │   ├── [6.28] Scanning for Vulnerabilities.mp4
+│       │   ├── [6.29] Nessus Vulnerability Scanner.mp4
+│       │   ├── [6.2] Scanning Methodology.mp4
+│       │   ├── [6.30] Nmap Scripting Engine.mp4
+│       │   ├── [6.31] nikto Web Vulnerability Scanner.mp4
+│       │   ├── [6.32] OpenVas Installation and Configuration.mp4
+│       │   ├── [6.33] Vulnerability Scanning with OpenVas.mp4
+│       │   ├── [6.34] Wordpress Vulnerability Scanning with wpscan.mp4
+│       │   ├── [6.35] Mapping Networks.mp4
+│       │   ├── [6.36] Network Topology Mapper.mp4
+│       │   ├── [6.3] Working with ping command for live hosts.mp4
+│       │   ├── [6.4] Angry IP Scanner.mp4
+│       │   ├── [6.5] TCP Flags.mp4
+│       │   ├── [6.6] TCP 3-Way Handshake.mp4
+│       │   ├── [6.7] Introduction to Port Scanning.mp4
+│       │   ├── [6.8] Port Scanning Methodology.mp4
+│       │   ├── [6.9] Types of Port Scanning - TCP Connect Scan.mp4
+│       │   ├── Port Scanning Introduction to Masscan.mp4
+│       │   └── Study Materials
+│       │       ├── Extra Materials.zip
+│       │       ├── Module 6.pdf
+│       │       └── references.txt
+│       └── 2 Enumeration
+│           ├── DNS Enumeration.mp4
+│           ├── Introduction to Enumeration.mp4
+│           ├── LDAP Enumeration.mp4
+│           ├── NetBIOS enumeration.mp4
+│           ├── SMB Enumeration.mp4
+│           ├── SMTP Enumeration.mp4
+│           ├── SNMP Enumeration.mp4
+│           ├── Study Materials.zip
+│           ├── Techniques of Enumeration.mp4
+│           ├── Working wiith NetBIOS and SMB Enumeration.mp4
+│           └── Working with SMTP Enumeration.mp4
+├── 6. Initial Access Techniques
+│   └── Initial Access Techniques
+│       ├── Modern Exploitation Techniques Initial Access.mp4
+│       ├── Password Attacks
+│       │   ├── 8.10 Hash Injection or Pass the Hash.mp4
+│       │   ├── 8.11 Meaning of Promiscous Mode.mp4
+│       │   ├── 8.12 Man in the Middle and Replay attacks.mp4
+│       │   ├── 8.13 Offline attacks, Rainbow Tables.mp4
+│       │   ├── 8.14 Offline Distributed Network Attacks.mp4
+│       │   ├── 8.15 Password Cracking with KeyLoggers.mp4
+│       │   ├── 8.16 Password List generation with crunch.mp4
+│       │   ├── 8.17 Password Cracking with hashcat.mp4
+│       │   ├── 8.18 Password Cracking with John the Ripper.mp4
+│       │   ├── 8.19 Password Cracking with Hydra.mp4
+│       │   ├── 8.1 Introduction to System Hacking.mp4
+│       │   ├── 8.2 Goals of System Hacking.mp4
+│       │   ├── 8.3 Introduction to Password Cracking.m4v
+│       │   ├── 8.4 Password Complexity.m4v
+│       │   ├── 8.5 Types of Password Attacks.mp4
+│       │   ├── 8.6 Active Online Attack.mp4
+│       │   ├── 8.7 Password Guessing.mp4
+│       │   ├── 8.8 Default Passwords.mp4
+│       │   ├── 8.9 Online Malware Attack.mp4
+│       │   ├── Initial Access Techniques Offline Password Cracking w John - Custom Rules.mp4
+│       │   ├── Initial Access Techniques Offline Password Cracking w John.mp4
+│       │   ├── Initial Access Techniques Online Password Cracking w Hydra 1.mp4
+│       │   ├── Initial Access Techniques Online Password Cracking w Hydra 2.mp4
+│       │   └── Study Materials.zip
+│       ├── Public Exploitation
+│       │   ├── Initial Access Techniques Public Exploits 1.mp4
+│       │   └── Initial Access Techniques Public Exploits 2.mp4
+│       └── Web Application Pentesting
+│           ├── 14.12 SSH and Password Cracking.mp4
+│           ├── 14.13 Directory Traversal in action.mp4
+│           ├── 14.14 Directory Traversal Portswigger.mp4
+│           ├── 14.1 Introduction to Web Servers.mp4
+│           ├── 14.2 Types of Web Servers.mp4
+│           ├── 14.3 Web Server Security Stack.mp4
+│           ├── 14.4 Why Web Servers are Compromised.mp4
+│           ├── 14.5 Web Server Attack Methods.mp4
+│           ├── 14.6 Directory Traversal Attack.mp4
+│           ├── 14.7 Directory Listing Attack.mp4
+│           ├── 15.10 BurpSuite Target and Spider Modules.mp4
+│           ├── 15.11 BurpSuite Sequencer and Scanner Modules.mp4
+│           ├── 15.12 BurpSuite Repeater Module.mp4
+│           ├── 15.13 BurpSuite Intruder and Comparer Modules.mp4
+│           ├── 15.15 Parameter Tampering and Hidden field Manipulation.mp4
+│           ├── 15.16 OWASP Top 10 Security Misconfiguration.mp4
+│           ├── 15.1 Introduction to Web Applications.mp4
+│           ├── 15.2 Web Application Attack Methodology Footprinting Infrastruct.mp4
+│           ├── 15.3 Web Application Attack Methodology Attacking Web Servers.mp4
+│           ├── 15.4_Web Application Attack Methodology Analyzing Web Applicatio.mp4
+│           ├── 15_4_Web_Application_Attack_Methodology_Analyzing_Web_Applicatio.mp4
+│           ├── 15_5_Web_Application_Attack_Methodology_Attacking_Authentication.mp4
+│           ├── 15_6_Web_Application_Attack_Methodology_Performing_Various_Attac.mp4
+│           ├── 15_7_Web_Application_Attack_Methodology_Attacking_Web_Applicatio.mp4
+│           ├── 15.8 Introduction to BurpSuite.mp4
+│           └── 15.9 BurpSuite Basics, Working and Setup.mp4
+├── 7. Metasploit Framework
+│   └── Metasploit Framework
+│       ├── Introduction to Metasploit.mp4
+│       ├── Metasploit Exploiting Linux Machine (Metasploitable).mp4
+│       ├── Metasploit Exploiting Windows 7.mp4
+│       ├── Metasploit Framework (msf) Walkthrough.mp4
+│       ├── Metasploit Windows Post Exploitation, Privilege Escalation.mp4
+│       ├── searchsploit.mp4
+│       └── Study Materials.zip
+├── 8. File Transfer Techniques
+│   └── File Transfer Techniques
+│       ├── [LAB] Linux File Transfers.mp4
+│       └── [LAB] Windows File Transfers.mp4
+├── 9. Port Forwarding, Pivoting and Tunneling
+│   └── Port Forwarding, Pivoting and Tunneling
+│       ├── Port Forwarding for Linux
+│       │   ├── Introduction to Pivoting and Port Redirection.mp4
+│       │   ├── [LAB] SSH Dynamic Port Forwarding.mp4
+│       │   ├── [LAB] SSH Local Port Forwarding.mp4
+│       │   └── [LAB] SSH Remote Port Forwarding.mp4
+│       └── Port Forwarding for Windows
+│           ├── Introduction to Chisel.mp4
+│           ├── [LAB] Pivoting With Chisel And SOCKS.mp4
+│           ├── [LAB] Pivoting With Chisel.mp4
+│           ├── [LAB] Pivoting With Socat.mp4
+│           └── [LAB] Tunneling Complex Exploits.mp4
+├── Kerberos Explained.mp4
+└── OSCP Guide Notes.pdf
+
+102 directories, 521 files

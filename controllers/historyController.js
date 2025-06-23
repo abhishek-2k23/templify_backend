@@ -16,7 +16,11 @@ exports.createHistory = async (req, res) => {
 
 exports.getHistory = async (req, res) => {
   try {
-    const histories = await History.find().sort({ createdAt: -1 });
+    const { email } = req.params;
+    if (!email) {
+      return res.status(200).json({ message: 'No history found' });
+    }
+    const histories = await History.find({ url: { $regex: email, $options: 'i' } }).sort({ createdAt: -1 });
     res.json({ histories });
   } catch (err) {
     res.status(500).json({ error: 'Failed to fetch history', details: err.message });

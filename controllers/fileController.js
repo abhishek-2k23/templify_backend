@@ -2,6 +2,7 @@ const cloudinary = require('../configuration/cloudinary');
 const File = require('../models/File');
 const User = require('../models/User');
 const fs = require('fs');
+const path = require('path');
 
 exports.uploadFile = async (req, res) => {
   try {
@@ -18,9 +19,16 @@ exports.uploadFile = async (req, res) => {
       user = new User({ email });
       await user.save();
     }
+    const uploadPublicId = `uploads/${req.file.originalname}`;
+    // Try to delete any existing file with the same public_id
+    try {
+      await cloudinary.uploader.destroy(uploadPublicId, { resource_type: 'raw' });
+    } catch (e) {
+      // Ignore if not found
+    }
     const result = await cloudinary.uploader.upload(req.file.path, {
-      folder: 'uploads',
       resource_type: 'raw',
+      public_id: uploadPublicId
     });
     // Remove local file after upload
     fs.unlinkSync(req.file.path);
@@ -63,11 +71,12 @@ exports.updateFile = async (req, res) => {
       return res.status(404).json({ error: 'File not found' });
     }
     // Delete old file from cloudinary
-    const publicId = fileDoc.url.split('/').pop().split('.')[0];
-    await cloudinary.uploader.destroy(`uploads/${publicId}`);
+    const updatePublicId = `uploads/${req.file.originalname}`;
+    await cloudinary.uploader.destroy(updatePublicId, { resource_type: 'raw' });
     // Upload new file
     const result = await cloudinary.uploader.upload(req.file.path, {
-      folder: 'uploads',
+      resource_type: 'raw',
+      public_id: updatePublicId
     });
     fs.unlinkSync(req.file.path);
     fileDoc.filename = req.file.originalname;
@@ -90,8 +99,8 @@ exports.deleteFile = async (req, res) => {
       return res.status(404).json({ error: 'File not found' });
     }
     // Delete from cloudinary
-    const publicId = fileDoc.url.split('/').pop().split('.')[0];
-    await cloudinary.uploader.destroy(`uploads/${publicId}`);
+    const deletePublicId = `uploads/${fileDoc.filename}`;
+    await cloudinary.uploader.destroy(deletePublicId, { resource_type: 'raw' });
     await fileDoc.deleteOne();
     res.json({ message: 'File deleted successfully' });
   } catch (err) {

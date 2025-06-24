@@ -1,4 +1,4 @@
-Absolutely! Here’s a structured, detailed explanation of your backend project, suitable for a college project submission.
+Absolutely! Here's a structured, detailed explanation of your backend project, suitable for a college project submission.
 
 ---
 
@@ -6,7 +6,7 @@ Absolutely! Here’s a structured, detailed explanation of your backend project,
 
 ## 1. **Project Overview**
 
-This backend is designed to provide a secure, user-centric file management system. Users can upload, list, update, and delete files (PDF, TXT, XLS, DOC) via RESTful API endpoints. All files are stored in the cloud (Cloudinary), and file metadata is managed in a MongoDB database. Each file is associated with a user’s email, allowing for multi-user, multi-file management.
+This backend is designed to provide a secure, user-centric file management system. Users can upload, list, update, and delete files (PDF, TXT, XLS, DOC) via RESTful API endpoints. All files are stored in the cloud (Cloudinary), and file metadata is managed in a MongoDB database. Each file is associated with a user's email, allowing for multi-user, multi-file management.
 
 ---
 
@@ -72,7 +72,7 @@ templify_backend/
 ### **a. Upload File**
 - **POST /api/files/upload**
 - Accepts: `file` (PDF, TXT, XLS, DOC), `email`
-- Stores file in Cloudinary, saves metadata in MongoDB, associates file with user’s email.
+- Stores file in Cloudinary, saves metadata in MongoDB, associates file with user's email.
 
 ### **b. List User Files (History)**
 - **GET /api/files/list?email=USER_EMAIL**
@@ -116,7 +116,7 @@ templify_backend/
 
 - **File Type Restriction:** Only allows `.pdf`, `.txt`, `.xls`, `.doc` files.
 - **Public File Access:** Files are uploaded as public resources in Cloudinary for easy sharing.
-- **User Isolation:** Each file is associated with a user’s email, so users can only manage their own files.
+- **User Isolation:** Each file is associated with a user's email, so users can only manage their own files.
 
 ---
 
